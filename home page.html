@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blood Donation Portal</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+<nav>
+  <a href="home page.html">Home</a>
+  <a href="donate page.html">Donate</a>
+  <a href="about page.html">About</a>
+  <a href="contact page.html">Contact</a>
+  <a href="login page.html">Login</a>
+</nav>
+
+<div class="container">
+  <h1>🩸 Blood Donation Eligibility Checker</h1>
+
+  <input type="number" id="age" placeholder="Age">
+  <input type="number" id="weight" placeholder="Weight (kg)">
+  <input type="number" id="days" placeholder="Days since last donation">
+
+  <button onclick="checkEligibility()">Check Eligibility</button>
+
+  <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
