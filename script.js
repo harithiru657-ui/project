@@ -12,6 +12,11 @@ function checkEligibility() {
   if (age >= 18 && age <= 65 && weight >= 50 && days >= 90) {
     result.style.color = "green";
     result.innerHTML = "✅ Eligible! You can donate blood 😊.";
+   
+    setTimeout(function () {
+      window.location.href = "donate page.html";
+    }, 2000);
+    
   } else {
     result.style.color = "red";
     result.innerHTML = "❌ Not eligible at the moment 😓.";
@@ -35,3 +40,4 @@ function submitDonation() {
   msg.innerHTML = "🎉 Thank you! Your donation request is submitted.";
 
 }
+
