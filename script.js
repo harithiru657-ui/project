@@ -38,6 +38,10 @@ function submitDonation() {
 
   msg.style.color = "green";
   msg.innerHTML = "🎉 Thank you! Your donation request is submitted.";
+  setTimeout(function () {
+      window.location.href = "home page.html";
+    }, 2000);
 
 }
+
 
